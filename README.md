@@ -1,2 +1,2 @@
 # DotNetInside
-DotNet Inside is project for sample of C # basics concepts
+C# basics concepts sample project
