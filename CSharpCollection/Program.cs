@@ -11,6 +11,7 @@ namespace CSharpCollection
 
         static void Main(string[] args)
         {
+            MyList.GetStudentsStandardWise();
             Console.WriteLine("Hello World!");
         }
     }

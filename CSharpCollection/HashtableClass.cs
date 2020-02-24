@@ -7,8 +7,13 @@ namespace CSharpCollection
 {
     public class HashtableClass
     {
+        readonly string s2;
+        
+
         public void GetValues()
         {
+           // s2 = "ss";
+
             // Create a new hash table.
             Hashtable openWith = new Hashtable();
 
@@ -18,6 +23,21 @@ namespace CSharpCollection
             openWith.Add("bmp", "paint.exe");
             openWith.Add("dib", "paint.exe");
             openWith.Add("rtf", "wordpad.exe");
+
+            var v = "343";
+
+            dynamic v1 = "rer";
+            v1 = 7.6;
+
+            string s12 = null;
+
+            var v2 = s12;
+
+          //  v2 = s?.ToCharArray();
+
+            
+
+            openWith.Add("rtf", 5.4);
 
             // The Add method throws an runtime exception if the new key is 
             // already in the hash table.

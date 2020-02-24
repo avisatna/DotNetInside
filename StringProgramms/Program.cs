@@ -32,5 +32,10 @@ namespace StringProgramms
                 Console.WriteLine(item.Key + " " + item.Value);
             }
         }
+
+        public static void GetLastCharOfEachWord()
+        {
+
+        }
     }
 }
